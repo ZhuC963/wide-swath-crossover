@@ -227,7 +227,7 @@ def pd_cross(lon1, lat1, lon2, lat2):
 
 
 if __name__ == "__main__":
-    # ----------------------原始文件lat扩大了4度，为了保证包含菱形区域的一个角--------------------
+    # ----------------------原始文件lat扩大了，为了保证包含菱形区域的一个角点--------------------
     t1 = tm.time()
     a_filepath = 'G:\\pchdata\\region1\\ncfile\\cycle_00n'
     d_filepath = 'G:\\pchdata\\region1\\ncfile\\cycle_00n'
